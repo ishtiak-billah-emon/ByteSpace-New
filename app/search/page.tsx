@@ -23,7 +23,7 @@ export default function SearchPage() {
               <Image src={a("7c340.svg")} alt="" width={24} height={24} />
               <input type="search" name="q" placeholder="Search" className="w-full bg-transparent text-lg leading-[1.6] text-ink outline-none placeholder:text-muted" />
             </label>
-            {/* ponytail: category dropdown is visual only until there's data to filter */}
+            
             <Button className="flex items-center gap-2">
               Courses
               <Image src={a("fdb7a.svg")} alt="" width={24} height={24} />

@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: var(--font-poppins-next), sans-serif;
+  --font-satoshi: "Satoshi", sans-serif;
+  --font-clash: "Clash Display", sans-serif;
+
+  --color-ink: #242528;
+  --color-body: #4b4c53;
+  --color-muted: #82868e;
+  --color-grey: #4f4f4f;
+  --color-line: #ced0d3;
+  --color-soft: #f5f5f6;
+  --color-brand: #003be2;
+  --color-lime: #d4fb20;
+}
+
+body {
+  background: #fff;
+  color: var(--color-ink);
+  font-family: var(--font-satoshi);
+  overflow-x: hidden;
+}
+
+/* ponytail: Figma's 8-layer shadow collapsed to one — stacked drop-shadow filters compound on each other. */
+.deep-shadow {
+  filter: drop-shadow(30px 44px 40px rgba(0, 0, 0, 0.22));
+}
